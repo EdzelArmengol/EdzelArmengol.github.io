@@ -108,21 +108,21 @@ export const Badge = {
 
     q13: {
       top: "0%",
-      left: "130%",
+      left: "125%",
 
       borderColor: "teal.300",
     },
 
     q14: {
       top: "90%",
-      left: "113%",
+      left: "108%",
 
       borderColor: "teal.300",
     },
 
     q15: {
       top: "50%",
-      left: "113%",
+      left: "108%",
 
       borderColor: "teal.300",
     },

@@ -19,74 +19,31 @@ const variants = {
 const SecondDFA = ({ currentNodeVal, simulatingStatus }) => {
   return (
     <>
-      {/* q3 q5 */}
-      <Text size="label" top="27%" left="60%">
+      {/* q1 q2 */}
+      <Text size="label" top="-60%" left="2%">
         1
       </Text>
-      {/* q3 q7 */}
-      <Text size="label" top="45%" left="60%">
+
+      {/* q1 q3 */}
+      <Text size="label" top="-10%" left="2%">
         0
       </Text>
       
+      {/* q1 q2 */}
+      <ArrowBody
+        w={["9em", null, "9em", null, null, "9em"]}
+        top={["-65%", null, "-65%", null, null, "-65%"]}
+        left={["4%", null, "4%", null, null, "4%"]}
+        rotate={["140", null, "140", null, null, "140"]}
+      />
 
-      
-      
-      {/* q2 q4 */}
-      <ArrowBody
-        w={["5em", null, "8em", null, null, "13em"]}
-        top={["71%", null, "71%", null, null, "71%"]}
-        left={["36%", null, "38%", null, null, "38%"]}
-        rotate={["46", null, "38", null, null, "27"]}
-      />
-      {/* q6 q3 */}
-      <ArrowBody
-        w={["5em", null, "8em", null, null, "13em"]}
-        top={["71%", null, "71%", null, null, "71%"]}
-        left={["56%", null, "58%", null, null, "58%"]}
-        rotate={["46", null, "38", null, null, "27"]}
-      />
-      {/* q3 q5 */}
-      <ArrowBody
-        w={["5em", null, "8em", null, null, "12em"]}
-        top={["29%", null, "30%", null, null, "29%"]}
-        left={["56%", null, "58%", null, null, "58%"]}
-        rotate={["133", null, "141", null, null, "152"]}
-      />
-      {/* q5 q8 */}
-      <ArrowBody
-        w={["5em", null, "8em", null, null, "12em"]}
-        top={["27%", null, "29%", null, null, "29%"]}
-        left={["84%", null, "82%", null, null, "82%"]}
-        rotate={["227", null, "220", null, null, "208"]}
-      />
-      {/* q4 q6 */}
-      <ArrowBody
-        w={["3em", null, "5em", null, null, "9em"]}
-        top={["93%", null, "90%", null, null, "91%"]}
-        left="60%"
-      />
-      {/* q6 q8 */}
-      <ArrowBody
-        w={["5em", null, "8em", null, null, "12em"]}
-        top={["65%", null, "65%", null, null, "65%"]}
-        left={["75%", null, "77.5%", null, null, "79%"]}
-        rotate={["133", null, "141", null, null, "152"]}
-      />
-      {/* q7 q8 */}
+      {/* q1 q2 */}
       <ArrowHead
-        top={["50%", null, "49.7%", null, null, "49.7%"]}
-        left={["84.3%", null, "85.3%", null, null, "86.6%"]}
+        top={["-67.5%", null, "-67.5%", null, null, "-67.5%"]}
+        left={["7.2%", null, "7.2%", null, null, "7.2%"]}
+        rotate={["315", "315", "315", "315", "315", "315"]}
       />
-      {/* q3 q7 */}
-      <ArrowHead
-        top={["50%", null, "49.7%", null, null, "49.7%"]}
-        left={["64.2%", null, "65.3%", null, null, "66.6%"]}
-      />
-      {/* q2 q3 */}
-      <ArrowHead
-        top={["50%", null, "49.7%", null, null, "49.7%"]}
-        left={["44.3%", null, "45.3%", null, null, "46.6%"]}
-      />
+
       
 
       <Atom
