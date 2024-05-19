@@ -41,12 +41,12 @@ const CFG = ({ prob2 }) => {
             </VStack>
           ) : (
             <VStack>
-              <Text>{"S → ROYGRBR"}</Text>
-              <Text>{"R → 0R | 1R | Λ"}</Text>
-              <Text>{"O → 00 | 11"}</Text>
-              <Text>{"Y → OY | Λ"}</Text>
-              <Text>{"G → 0 | 1 | 11"}</Text>
-              <Text>{"B → 101 | 111"}</Text>
+              <Text>{"S → 11WXYZ | OOWXYZ"}</Text>
+              <Text>{"W → 1W | 0W | Λ"}</Text>
+              <Text>{"X → 101 | 111 | 01"}</Text>
+              <Text>{"Y → 1 | 0 | 1Y | 0Y"}</Text>
+              <Text>{"Z → 1 | 0 | 11"}</Text>
+
             </VStack>
           )}
         </PopoverBody>

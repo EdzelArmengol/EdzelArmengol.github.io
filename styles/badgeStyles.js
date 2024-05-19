@@ -101,7 +101,7 @@ export const Badge = {
 
     q12: {
       top: "-50%",
-      left: "113%",
+      left: "108%",
 
       borderColor: "teal.300",
     },
@@ -129,14 +129,14 @@ export const Badge = {
 
     q16: {
       top: "0%",
-      left: "113%",
+      left: "108%",
 
       borderColor: "teal.300",
     },
 
     q17: {
       top: "-0%",
-      left: "95%",
+      left: "90%",
 
       borderColor: "teal.300",
     },
