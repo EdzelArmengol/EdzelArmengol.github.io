@@ -33,14 +33,11 @@ const CFG = ({ prob2 }) => {
         <PopoverBody align="center">
           {!prob2 ? (
             <VStack>
-              <Text>{"S → ROYGBIGV"}</Text>
-              <Text>{"R → babR | Λ"}</Text>
-              <Text>{"O → a | b"}</Text>
-              <Text>{"Y → aba | bab"}</Text>
-              <Text>{"G → OG | Λ"}</Text>
-              <Text>{"B → VB | Λ"}</Text>
-              <Text>{"I → O | bb"}</Text>
-              <Text>{"V → aa | bb"}</Text>
+              <Text>{"S → aWXYZ | bWXYZ"}</Text>
+              <Text>{"W → aW | bW | Λ"}</Text>
+              <Text>{"X → aa | bb"}</Text>
+              <Text>{"Y → abW | baW"}</Text>
+              <Text>{"Z → aba | baa"}</Text>
             </VStack>
           ) : (
             <VStack>
