@@ -8,8 +8,8 @@ export const Badge = {
       color: ["gray.200", null, "gray.200"],
 
       // h: ["2em", "2em", "3.5em", "3.5em"],
-      h: "3em",
-      w: "3em",
+      h: "3.5em",
+      w: "3.5em",
       // w: ["2em", "2em", "3.5em", "3.5em"],
 
       boxShadow: "xl",
@@ -26,167 +26,252 @@ export const Badge = {
       justifyContent: "center",
 
       textTransform: "none",
-      fontSize: ["0.5em", "0.5em", "0.9em", "0.9em", "0.9em", "1em"],
+      fontSize: ["0.6em", "0.6em", "1em", "1em", "1em", "1.1em"],
       fontWeight: "500",
     },
   },
   variants: {
     q1: {
-      top: "50%",
-      left: "4.5%",
+      top: "10%",
+      left: "0%",
 
       borderColor: "blue.300",
     },
     q2: {
-      top: "20%",
-      left: "17.5%",
+      top: "10%",
+      left: "13%",
 
-      borderColor: "teal.300",
+      borderColor: "orange.300",
     },
     q3: {
-      top: "80%",
-      left: "17.5%",
+      top: "-20%",
+      left: "22%",
 
-      borderColor: "teal.300",
+      borderColor: "purple.300",
     },
     q4: {
-      top: "20%",
-      left: "30.5%",
+      top: "45%",
+      left: "22%",
 
-      borderColor: "teal.300",
+      borderColor: "orange.300",
     },
     q5: {
-      top: "50%",
-      left: "30.5%",
+      top: "-46%",
+      left: "33%",
 
-      borderColor: "teal.300",
+      borderColor: "purple.300",
     },
     q6: {
-      top: "80%",
-      left: "30.5%",
+      top: "-70%",
+      left: "45%",
 
-      borderColor: "teal.300",
+      borderColor: "orange.300",
     },
     q7: {
-      top: "20%",
-      left: "43.5%",
+      top: "0%",
+      left: "33.5%",
 
-      borderColor: "teal.300",
+      borderColor: "orange.300",
     },
     q8: {
-      top: "50%",
-      left: "43.5%",
+      top: "45%",
+      left: "45%",
 
-      borderColor: "teal.300",
+      borderColor: "orange.300",
     },
     q9: {
-      top: "80%",
-      left: "43.5%",
+      top: "75%",
+      left: "33.5%",
 
-      borderColor: "teal.300",
+      borderColor: "purple.300",
     },
     q10: {
-      top: "50%",
-      left: "56.5%",
+      top: "45%",
+      left: "60%",
 
       borderColor: "teal.300",
     },
+
     q11: {
-      top: "50%",
-      left: "69.5%",
+      top: "0%",
+      left: "73%",
 
       borderColor: "teal.300",
     },
+
     q12: {
-      top: "20%",
-      left: "82.5%",
+      top: "-50%",
+      left: "113%",
 
       borderColor: "teal.300",
     },
+
     q13: {
-      top: "80%",
-      left: "82.5%",
+      top: "0%",
+      left: "130%",
 
       borderColor: "teal.300",
     },
+
     q14: {
-      top: "20%",
-      left: "95.5%",
+      top: "90%",
+      left: "113%",
 
-      borderColor: "green.300",
+      borderColor: "teal.300",
     },
+
     q15: {
-      top: "80%",
-      left: "95.5%",
-
-      borderColor: "green.300",
-    },
-    q16: {
-      top: "35%",
-      left: "37%",
-
-      borderColor: "red.300",
-    },
-    q17: {
-      top: "65%",
-      left: "37%",
-
-      borderColor: "red.300",
-    },
-    1: {
       top: "50%",
-      left: "11%",
+      left: "113%",
+
+      borderColor: "teal.300",
+    },
+
+    q16: {
+      top: "0%",
+      left: "113%",
+
+      borderColor: "teal.300",
+    },
+
+    q17: {
+      top: "-0%",
+      left: "95%",
+
+      borderColor: "teal.300",
+    },
+
+    T: {
+      top: "50%",
+      left: "30%",
+
+      borderColor: "pink.300",
+    },
+
+
+
+    1: {
+      top: "-40%",
+      left: "-3%",
 
       borderColor: "blue.300",
     },
     2: {
-      top: "20%",
-      left: "24%",
+      top: "-75%",
+      left: "10%",
 
       borderColor: "teal.300",
     },
     3: {
-      top: "80%",
-      left: "24%",
+      top: "0%",
+      left: "10%",
 
       borderColor: "teal.300",
     },
     4: {
-      top: "50%",
-      left: "37%",
+      top: "-40%",
+      left: "10%",
 
       borderColor: "teal.300",
     },
     5: {
-      top: "20%",
-      left: "50%",
+      top: "-40%",
+      left: "22%",
 
       borderColor: "teal.300",
     },
     6: {
-      top: "50%",
-      left: "63%",
+      top: "0%",
+      left: "22%",
 
       borderColor: "teal.300",
     },
     7: {
-      top: "20%",
-      left: "76%",
+      top: "40%",
+      left: "22%",
 
       borderColor: "teal.300",
     },
     8: {
       top: "80%",
-      left: "76%",
+      left: "22%",
 
       borderColor: "teal.300",
     },
     9: {
-      top: "50%",
-      left: "89%",
+      top: "80%",
+      left: "34%",
 
-      borderColor: "green.300",
+      borderColor: "teal.300",
     },
+
+    10: {
+      top: "45%",
+      left: "40%",
+
+      borderColor: "teal.300",
+    },
+
+    11: {
+      top: "10%",
+      left: "49%",
+
+      borderColor: "teal.300",
+    },
+
+    12: {
+      top: "-27%",
+      left: "59%",
+
+      borderColor: "teal.300",
+    },
+
+    13: {
+      top: "-27%",
+      left: "72%",
+
+      borderColor: "teal.300",
+    },
+
+    14: {
+      top: "-75%",
+      left: "75%",
+
+      borderColor: "teal.300",
+    },
+
+    15: {
+      top: "-27%",
+      left: "85%",
+
+      borderColor: "teal.300",
+    },
+
+
+    16: {
+      top: "38%",
+      left: "78%",
+
+      borderColor: "teal.300",
+    },
+
+
+    17: {
+      top: "-0%",
+      left: "99%",
+
+      borderColor: "teal.300",
+    },
+
+
+    18: {
+      top: "38%",
+      left: "112%",
+
+      borderColor: "teal.300",
+    },
+
+
   },
   defaultProps: {
     size: "node",

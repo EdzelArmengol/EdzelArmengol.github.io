@@ -54,21 +54,23 @@ export class DFA {
 }
 
 export const problem1 = [
-  new Node(1, 2, 3),
-  new Node(2, 4, 5),
-  new Node(3, 6, 5),
-  new Node(4, "T1", 7),
-  new Node(5, 8, "T1"),
-  new Node(6, "T2", 9),
-  new Node(7, 10, "T1"),
-  new Node(8, "T2", 10),
-  new Node(9, 10, 3),
-  new Node(10, 11, 11),
-  new Node(11, 12, 13),
-  new Node(12, 14, 13),
-  new Node(13, 12, 15),
-  new Node(14, 14, 13),
-  new Node(15, 12, 15),
+  new Node(1, 2, 2),
+  new Node(2, 3, 4),
+  new Node(3, 5, 4),
+  new Node(4, 3, 8),
+  new Node(5, 6, 7),
+  new Node(6, 6, 11),
+  new Node(7, 8, 11),
+  new Node(8, 9, 10),
+  new Node(9, 3, 11),
+  new Node(10, 11, 10),
+  new Node(11, 15, 12),
+  new Node(12, 13, 12),
+  new Node(13, 14, 16),
+  new Node(14, 15, 16, 14),
+  new Node(15, 15, 16),
+  new Node(16, 17, 12),
+  new Node(17, 14, 16, 17),
 ];
 
 export const problem2 = [
