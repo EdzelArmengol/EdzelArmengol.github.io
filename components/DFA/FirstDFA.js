@@ -264,7 +264,7 @@ const FirstDFA = ({ currentNode, simulating }) => {
         variant="q16"
         variants={variants}
         initial="initial"
-        animate={currentNode == 15 ? "pulse" : ""}
+        animate={currentNode == 16 ? "pulse" : ""}
         whileHover={!simulating && "scale"}
       >
 
@@ -276,7 +276,7 @@ const FirstDFA = ({ currentNode, simulating }) => {
         variant="q17"
         variants={variants}
         initial="initial"
-        animate={currentNode == 15 ? "pulse" : ""}
+        animate={currentNode == 17 ? "pulse" : ""}
         whileHover={!simulating && "scale"}
       >
       + 17{/* q17 */}

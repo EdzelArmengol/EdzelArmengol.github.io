@@ -168,12 +168,14 @@ export const Badge = {
 
       borderColor: "teal.300",
     },
+
     4: {
       top: "-40%",
       left: "10%",
 
       borderColor: "teal.300",
     },
+    
     5: {
       top: "-40%",
       left: "22%",

@@ -21,8 +21,8 @@ export class DFA {
     this.currentInputPos += 1;
     if (this.currentInputPos === this.input.length) {
         if (
-            (this.problem === problem1 && (this.currentNode === 14 || this.currentNode === 15)) ||
-            (this.problem === problem2 && this.currentNode === 9)
+            (this.problem === problem1 && (this.currentNode === 14 || this.currentNode === 17)) ||
+            (this.problem === problem2 && (this.currentNode === 10 || this.currentNode === 11 || this.currentNode === 12 || this.currentNode === 13 || this.currentNode === 18))
         ) {
             this.result = "Valid";
         } else {
@@ -67,22 +67,31 @@ export const problem1 = [
   new Node(11, 15, 12),
   new Node(12, 13, 12),
   new Node(13, 14, 16),
-  new Node(14, 15, 16, 14),
+  new Node(14, 15, 16),
   new Node(15, 15, 16),
   new Node(16, 17, 12),
-  new Node(17, 14, 16, 17),
+  new Node(17, 14, 16),
 ];
 
 export const problem2 = [
-  new Node(1, 2, 3),
-  new Node(2, 4, 3),
-  new Node(3, 2, 4),
-  new Node(4, 5, 5),
-  new Node(5, 5, 6),
-  new Node(6, 7, 8),
-  new Node(7, 5, 9),
-  new Node(8, 7, 9),
-  new Node(9, 9, 9),
+  new Node(1, 3, 2),
+  new Node(2, 4, 5),
+  new Node(3, 5, 4),
+  new Node(4, 4, 4),
+  new Node(5, 14, 6),
+  new Node(6, 14, 7),
+  new Node(7, 14, 8),
+  new Node(8, 16, 9),
+  new Node(9, 10, 18),
+  new Node(10, 10, 11),
+  new Node(11, 16, 12),
+  new Node(12, 13, 18),
+  new Node(13, 14, 15),
+  new Node(14, 14, 15),
+  new Node(15, 16, 17),
+  new Node(16, 10, 11),
+  new Node(17, 13, 18),
+  new Node(18, 10, 18),
 ];
 
 export const language1 = ["a", "b"];

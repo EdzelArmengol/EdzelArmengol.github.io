@@ -7,7 +7,7 @@ import RightBox from "./components/RightBox";
 
 const Main = () => {
   const regex1 = "(a+b)(a+b)*(aa+bb)(ab+ba)(a+b)*(aba+baa)";
-  const regex2 = "(11+00)(1+0)*(101+111+01)(00*+11*)(1+0+11)*";
+  const regex2 = "(11+00)(1+0)*(101+111+01)(00*+11*)(1+0+11)";
 
   const [string, setString] = useState("");
   const [data, setData] = useState("");
@@ -179,7 +179,7 @@ const Main = () => {
                 if (input.length < 7) {
                     handleShort();
                     messageDisplayed = true;
-                } else if (node === 14 || node === 15) {
+                } else if (node === 14 || node === 17) {
                     handleValid();
                     messageDisplayed = true;
                 } else {
@@ -203,10 +203,10 @@ const Main = () => {
         pathWithZeroes.some((node, i) => {
           setTimeout(() => {
               setCurrentNode(node);
-              if ((node === "T1" || node === "T2") && !messageDisplayed) {
+              if ((node === 4) && !messageDisplayed) {
                   handleTrapped();
                   messageDisplayed = true;
-              } else if (node === 9 && !messageDisplayed) {
+              } else if (node === 10 || node === 11 || node === 12 || node === 13 || node === 18 && !messageDisplayed) {
                   handleValid();
                   messageDisplayed = true;
               } else if (i === pathWithZeroes.length - 2 && !messageDisplayed) {
