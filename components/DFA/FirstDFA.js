@@ -30,8 +30,167 @@ const FirstDFA = ({ currentNode, simulating }) => {
         a, b
       </Text>
 
+      {/* q2 q3 */}
+      <Text size="label" top="-8%" left="16.5%">
+        a
+      </Text>
 
-    
+      {/* q2 q4 */}
+      <Text size="label" top="30%" left="16.5%">
+        b
+      </Text>
+
+      {/* q3 q5 */}
+      <Text size="label" top="-37.5%" left="26%">
+        a
+      </Text>
+
+      {/* q3 q4 */}
+      <Text size="label" top="12%" left="19.5%">
+        b
+      </Text>
+
+      {/* q4 q3 */}
+      <Text size="label" top="12%" left="24.2%">
+        a
+      </Text>
+      
+      {/* q4 q8 */}
+      <Text size="label" top="40%" left="26%">
+        b
+      </Text>
+
+      {/* q5 q6 */}
+      <Text size="label" top="-65%" left="37%">
+        a
+      </Text>
+
+      {/* q5 q7 */}
+      <Text size="label" top="-25%" left="35%">
+        b
+      </Text>
+
+      {/* q6 q6 */}
+      <Text size="label" top="-92%" left="42.5%">
+        a
+      </Text>
+
+      {/* q6 q11 */}
+      <Text size="label" top="-43%" left="60.5%">
+        b
+      </Text>
+
+      {/* q7 q8 */}
+      <Text size="label" top="18%" left="41%">
+        b
+      </Text>
+
+      {/* q7 q11 */}
+      <Text size="label" top="-5%" left="52%">
+        a
+      </Text>
+
+      {/* q8 q9 */}
+      <Text size="label" top="63%" left="41%">
+        a
+      </Text>
+
+      {/* q8 q10 */}
+      <Text size="label" top="41%" left="52%">
+        b
+      </Text>
+
+      {/* q9 q3 */}
+      <Text size="label" top="58%" left="30.5%">
+        a
+      </Text>
+
+      {/* q9 q11 */}
+      <Text size="label" top="82%" left="60.5%">
+        b
+      </Text>
+      
+      {/* q10 q11 */}
+      <Text size="label" top="22%" left="65.5%">
+        a
+      </Text>
+
+      {/* q10 q10 */}
+      <Text size="label" top="20%" left="59.5%">
+        b
+      </Text>
+
+      {/* q11 q15 */}
+      <Text size="label" top="15%" left="80%">
+        a
+      </Text>
+
+      {/* q11 q12 */}
+      <Text size="label" top="-55%" left="80%">
+        b
+      </Text>
+
+      {/* q12 q13 */}
+      <Text size="label" top="-55%" left="118%">
+        a
+      </Text>
+
+      {/* q12 q12 */}
+      <Text size="label" top="-75%" left="108%">
+        b
+      </Text>
+
+      {/* q13 q14 */}
+      <Text size="label" top="50%" left="126.5%">
+        a
+      </Text>
+
+      {/* q13 q16 */}
+      <Text size="label" top="-5%" left="117.5%">
+        b
+      </Text>
+
+      {/* q14 q15 */}
+      <Text size="label" top="75%" left="113%">
+        a
+      </Text>
+
+      {/* q14 q16 */}
+      <Text size="label" top="45%" left="116%">
+        b
+      </Text>
+
+      {/* q15 q15 */}
+      <Text size="label" top="29%" left="104.5%">
+        a
+      </Text>
+
+      {/* q15 q16 */}
+      <Text size="label" top="28%" left="109.2%">
+        b
+      </Text>
+
+      {/* q16 q17 */}
+      <Text size="label" top="8%" left="99.5%">
+        a
+      </Text>
+
+      {/* q16 q12 */}
+      <Text size="label" top="-23%" left="109.2%">
+        b
+      </Text>
+
+      {/* q17 q16 */}
+      <Text size="label" top="-6.5%" left="99.5%">
+        b
+      </Text>
+
+      {/* q17 q14 */}
+      <Text size="label" top="55%" left="88.5%">
+        a
+      </Text>
+
+
       
       {/* ARROW BODY */}
       {/* q1 q2 */}
