@@ -57,12 +57,20 @@ export const Badge = {
     },
     q5: {
       top: "-46%",
+<<<<<<< HEAD
       left: "33%",
+=======
+      left: "33.2%",
+>>>>>>> af1d3176ff492d281965cd219815e8a58f8d972a
 
       borderColor: "purple.300",
     },
     q6: {
+<<<<<<< HEAD
       top: "-70%",
+=======
+      top: "-75%",
+>>>>>>> af1d3176ff492d281965cd219815e8a58f8d972a
       left: "45%",
 
       borderColor: "orange.300",
@@ -115,7 +123,11 @@ export const Badge = {
 
     q14: {
       top: "90%",
+<<<<<<< HEAD
       left: "108%",
+=======
+      left: "119%",
+>>>>>>> af1d3176ff492d281965cd219815e8a58f8d972a
 
       borderColor: "teal.300",
     },
