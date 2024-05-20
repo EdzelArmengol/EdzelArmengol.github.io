@@ -22,7 +22,7 @@ import {
 const ShowPDA = ({ prob2 }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const imageSrc = prob2 ? "/images/PDA2.png" : "/images/PDA1.png";
-  const imageAlt = prob2 ? "(1+0)*(11+00)(00+11)*(1+0+11)(1+0+11)*(101+111)(101+111)*(1+0*+11)(1+0*+11)*" : "(bab)*(b+a)(bab+aba)(a+b)*(aa+bb)*(b+a+bb)(a+b)*(aa+bb)";
+  const imageAlt = prob2 ? "(11+00)(1+0)*(101+111+01)(00*+11*)(1+0+11)" : "(a+b)(a+b)*(aa+bb)(ab+ba)(a+b)*(aba+baa)";
 
   return (
     <>
