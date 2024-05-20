@@ -210,7 +210,7 @@ const Main = () => {
                   handleValid();
                   messageDisplayed = true;
               } else if (i === pathWithZeroes.length - 2 && !messageDisplayed) {
-                  if (input.length < 6) {
+                  if (input.length < 7) {
                       handleShort();
                       messageDisplayed = true;
                   } else if (node === 10 || node === 11 || node === 12 || node === 13 || node === 18) {
