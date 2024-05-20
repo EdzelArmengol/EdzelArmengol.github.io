@@ -44,7 +44,9 @@ const CFG = ({ prob2 }) => {
               <Text>{"S → 11WXYZ | OOWXYZ"}</Text>
               <Text>{"W → 1W | 0W | Λ"}</Text>
               <Text>{"X → 101 | 111 | 01"}</Text>
-              <Text>{"Y → 1 | 0 | 1Y | 0Y"}</Text>
+              <Text>{"Y → 1 | 0 | 1A | 0B"}</Text>
+              <Text>{"A → 1A | 1 | Λ"}</Text>
+              <Text>{"B → 0B | 0 | Λ"}</Text>
               <Text>{"Z → 1 | 0 | 11"}</Text>
 
             </VStack>
