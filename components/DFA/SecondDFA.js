@@ -528,7 +528,7 @@ const SecondDFA = ({ currentNodeVal, simulatingStatus }) => {
       />
 
 <Text size="label" top="16%" left="106%">
-        8
+        1
       </Text>
 
 {/* q13 q17 */}
