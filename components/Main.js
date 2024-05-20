@@ -176,7 +176,7 @@ const Main = () => {
               handleTrapped();
               messageDisplayed = true;
             } else if (i === pathWithZeroes.length - 2 && !messageDisplayed) {
-                if (input.length < 9) {
+                if (input.length < 8) {
                     handleShort();
                     messageDisplayed = true;
                 } else if (node === 14 || node === 17) {
