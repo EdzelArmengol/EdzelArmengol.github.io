@@ -30,8 +30,6 @@ const FirstDFA = ({ currentNode, simulating }) => {
         a, b
       </Text>
 
-
-    
       {/* q2 q3 */}
       <Text size="label" top="-8%" left="16.5%">
         a
@@ -192,6 +190,8 @@ const FirstDFA = ({ currentNode, simulating }) => {
         a
       </Text>
 
+
+      
       {/* ARROW BODY */}
       {/* q1 q2 */}
       <ArrowBody
@@ -208,33 +208,6 @@ const FirstDFA = ({ currentNode, simulating }) => {
         left="16%"
         rotate="135"
       />
-      
-      {/* ARROWS */}
-      {/* q6 q6 */}
-      <ArrowLoopSm
-        top={["50%", "50%", "50%", null, null, "50%"]}
-        left={["42.5%", "42.5%", "44.4%", null, null, "46%"]}
-        rotate="360"
-      />
-      <ArrowLoopLg
-        top={["50%", "50%", "50%", null, null, "51%"]}
-        left={["42.5%", "42.5%", "44.4%", null, null, "45.7%"]}
-        rotate="20"
-      />
-      {/* q7 q7 */}
-      <ArrowLoopSm
-        top={["20%", "20%", "20%", null, null, "20%"]}
-        left={["67.3%", "67.3%", "65.6%", null, null, "64%"]}
-        rotate="180"
-      />
-      <ArrowLoopLg
-        top={["20%", "20%", "20%", null, null, "18.5%"]}
-        left={["67.3%", "67.3%", "65.6%", null, null, "64.3%"]}
-        rotate="200"
-      />
-      
-      
-      
 
       {/* q2 q4 */}
       <ArrowBody
@@ -531,12 +504,6 @@ const FirstDFA = ({ currentNode, simulating }) => {
         rotate={["-59", "-59", "-50", "-50", "-50", "0"]}
       />
 
-      {/* q2 q3 */}
-      <ArrowHead
-        top={["29.6%", "29.6%", "29.2%", "29.2%", "20%", "-11.5%"]}
-        left={["16%", "16%", "16%", null, null, "19.5%"]}
-        rotate={["-59", "-59", "-50", "-50", "-50", "320"]}
-      />
       {/* q2 q3 */}
       <ArrowHead
         top={["29.6%", "29.6%", "29.2%", "29.2%", "20%", "-11.3%"]}
