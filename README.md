@@ -13,14 +13,7 @@ A DFA is a state machine made up of states and transitions that can accept or re
 
 ## Views
 - Main page
-  - ![](https://github.com/Randell-janus/DFA-Simulator/blob/master/public/views/regex1.JPG)
+  - ![](https://github.com/EdzelArmengol/DFA-Simulator/blob/master/public/images/PDA1.png)
 - 2nd Regular Expression
   - ![](https://github.com/Randell-janus/DFA-Simulator/blob/master/public/views/regex2.JPG)
-- Mobile
-  - ![](https://github.com/Randell-janus/DFA-Simulator/blob/master/public/views/mobile.JPG)
-<<<<<<< HEAD
 
-
-  Test
-=======
->>>>>>> af1d3176ff492d281965cd219815e8a58f8d972a
