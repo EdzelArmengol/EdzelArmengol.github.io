@@ -1,6 +1,11 @@
 import { Badge, Text } from "@chakra-ui/react";
 import { motion } from "framer-motion";
-import { ArrowHead, ArrowLoopSm, ArrowLoopLg, ArrowBody } from "../components/Arrows";
+import {
+  ArrowHead,
+  ArrowLoopSm,
+  ArrowLoopLg,
+  ArrowBody,
+} from "../components/Arrows";
 
 const Atom = motion(Badge);
 
@@ -109,6 +114,38 @@ const SecondDFA = ({ currentNodeVal, simulatingStatus }) => {
         top={["-67.5%", null, "-67.5%", null, null, "-67.5%"]}
         left={["7.2%", null, "7.2%", null, null, "7.2%"]}
         rotate={["315", "315", "315", "315", "315", "315"]}
+      />
+ 
+ {/* Arrow from q9 to q10 */}
+ <ArrowBody
+        w={["7em", null, "7em", null, null, "7em"]}
+        top={["70%", null, "70%", null, null, "70%"]}
+        left={["37%", null, "37%", null, null, "37%"]}
+        rotate={["305", "305", "305", "305","305", "305"]}
+      />
+      <ArrowHead
+        top={["55.2%", null, "55.2%", null, null, "55.2%"]}
+        left={["38.2%", null, "38.2%", null, null, "38.2%"]}
+        rotate={["300", "300", "300","300", "300", "300"]}
+      />
+  <Text size="label" top="60%" left="36%">
+        0
+      </Text>
+
+  {/* q10 q11 */}
+ <Text size="label" top="26%" left="43%">
+        1
+      </Text>
+   <ArrowBody
+        w={["5em", null, "5em", null, null, "5em"]}
+        top={["30%", null, "30%", null, null, "32.5%"]}
+        left={["45.5%", null, "45.5%", null, null, "45.5%"]}
+        rotate={["305", "305", "305", "305","305", "309"]}
+      />
+      <ArrowHead
+        top={["30%", null, "30%", null, null, "18.9%"]}
+        left={["38.4%", null, "38.4%", null, null, "46.8%"]}
+        rotate={["300", "300", "300","300", "300", "301.5"]}
       />
 
       {/* q1 q3 */}
@@ -380,6 +417,342 @@ const SecondDFA = ({ currentNodeVal, simulatingStatus }) => {
         left={["22%", null, "22%", null, null, "74.701%"]}
         rotate={["90", "90", "90", "90", "90", "336"]}
       />
+ 
+   {/* q11 q12 */}
+      <ArrowBody
+        w={["5em", null, "5em", null, null, "6em"]}
+        top={["%", null, "30%", null, null, "-5%"]}
+        left={["4%", null, "45.5%", null, null, "55%"]}
+        rotate={["305", "305", "305", "305","305", "309"]}
+      />
+      <ArrowHead
+        top={["30%", null, "30%", null, null, "-19.2%"]}
+        left={["38.4%", null, "38.4%", null, null, "56.5%"]}
+        rotate={["300", "300", "300","300", "300", "303"]}
+      />
+<Text size="label" top="-11%" left="52%">
+        1
+      </Text>
+
+{/* q12 q13 */}
+<ArrowBody
+        w={["em", null, "5em", null, null, "5em"]}
+        top={["%", null, "30%", null, null, "-20%"]}
+        left={["4%", null, "45.5%", null, null, "66%"]}
+        rotate={["305", "305", "305", "305","305", "0"]}
+      />
+      <ArrowHead
+        top={["30%", null, "30%", null, null, "-25.3%"]}
+        left={["38.4%", null, "38.4%", null, null, "68.5%"]}
+        rotate={["300", "300", "300","300", "300", "0"]}
+      />
+<Text size="label" top="-30%" left="65%">
+        0
+      </Text>
+
+{/* q13 q14 */}
+<ArrowBody
+        w={["em", null, "5em", null, null, "8em"]}
+        top={["%", null, "30%", null, null, "-45%"]}
+        left={["4%", null, "45.5%", null, null, "74.5%"]}
+        rotate={["305", "305", "305", "305","305", "285"]}
+      />
+      <ArrowHead
+        top={["30%", null, "30%", null, null, "-63.2%"]}
+        left={["38.4%", null, "38.4%", null, null, "74.4%"]}
+        rotate={["300", "300", "300","300", "300", "288"]}
+      />
+      <Text size="label" top="-42%" left="74.4%">
+        0
+      </Text>
+{/* q13 q15 */}
+<ArrowBody
+        w={["em", null, "5em", null, null, "5em"]}
+        top={["%", null, "30%", null, null, "-20%"]}
+        left={["4%", null, "45.5%", null, null, "79.4%"]}
+        rotate={["305", "305", "305", "305","305", "0"]}
+      />
+      <ArrowHead
+        top={["30%", null, "30%", null, null, "-25.3%"]}
+        left={["38.4%", null, "38.4%", null, null, "81.5%"]}
+        rotate={["300", "300", "300","300", "300", "0"]}
+      />
+ <Text size="label" top="-30%" left="78%">
+        1
+      </Text>
+
+{/* q14 q15 */}
+<ArrowBody
+        w={["em", null, "5em", null, null, "7.3em"]}
+        top={["%", null, "30%", null, null, "-52%"]}
+        left={["4%", null, "45.5%", null, null, "81%"]}
+        rotate={["305", "305", "305", "305","305", "240"]}
+      />
+      <ArrowHead
+        top={["30%", null, "30%", null, null, "-34.5%"]}
+        left={["38.4%", null, "38.4%", null, null, "82.3%"]}
+        rotate={["300", "300", "300","300", "300", "50"]}
+      />
+<Text size="label" top="-42%" left="79.4%">
+        1
+      </Text>
+
+{/* q15 q17 */}
+<ArrowBody
+        w={["em", null, "5em", null, null, "7.3em"]}
+        top={["%", null, "30%", null, null, "-18%"]}
+        left={["4%", null, "45.5%", null, null, "92%"]}
+        rotate={["305", "305", "305", "305","305", "215"]}
+      />
+      <ArrowHead
+        top={["30%", null, "30%", null, null, "-2.9%"]}
+        left={["38.4%", null, "38.4%", null, null, "95.6%"]}
+        rotate={["300", "300", "300","300", "300", "38"]}
+      />
+
+<Text size="label" top="-16%" left="93%">
+        1
+      </Text>
+
+{/* q17 q18 */}
+<ArrowBody
+        w={["em", null, "5em", null, null, "7.8em"]}
+        top={["%", null, "30%", null, null, "18%"]}
+        left={["4%", null, "45.5%", null, null, "107%"]}
+        rotate={["305", "305", "305", "305","305", "220"]}
+      />
+      <ArrowHead
+        top={["30%", null, "30%", null, null, "31%"]}
+        left={["38.4%", null, "38.4%", null, null, "109.2%"]}
+        rotate={["300", "300", "300","300", "300", "40"]}
+      />
+
+<Text size="label" top="16%" left="106%">
+        8
+      </Text>
+
+{/* q13 q17 */}
+<ArrowBody
+        w={["em", null, "5em", null, null, "15em"]}
+        top={["%", null, "30%", null, null, "-2%"]}
+        left={["4%", null, "45.5%", null, null, "84%"]}
+        rotate={["305", "305", "305", "305","305", "16"]}
+      />
+      <ArrowHead
+        top={["30%", null, "30%", null, null, "-17.3%"]}
+        left={["38.4%", null, "38.4%", null, null, "73.7%"]}
+        rotate={["300", "300", "300","300", "300", "209"]}
+      />
+
+<Text size="label" top="-2%" left="85%">
+        0
+      </Text>
+
+{/* q15 q16 */}
+<ArrowBody
+        w={["em", null, "5em", null, null, "11em"]}
+        top={["%", null, "30%", null, null, "0%"]}
+        left={["4%", null, "45.5%", null, null, "81%"]}
+        rotate={["305", "305", "305", "305","305", "110"]}
+      />
+      <ArrowHead
+        top={["30%", null, "30%", null, null, "27.4%"]}
+        left={["38.4%", null, "38.4%", null, null, "79.7%"]}
+        rotate={["300", "300", "300","300", "300", "120"]}
+      />
+<Text size="label" top="15%" left="79.4%">
+        0
+      </Text>
+
+{/* q16 q11 */}
+<ArrowBody
+        w={["em", null, "5em", null, null, "19em"]}
+        top={["%", null, "30%", null, null, "25.5%"]}
+        left={["4%", null, "45.5%", null, null, "65%"]}
+        rotate={["305", "305", "305", "305","305", "14"]}
+      />
+      <ArrowHead
+        top={["30%", null, "30%", null, null, "9.9%"]}
+        left={["38.4%", null, "38.4%", null, null, "52.5%"]}
+        rotate={["300", "300", "300","300", "300", "195"]}
+      />
+<Text size="label" top="16%" left="67%">
+        1
+      </Text>
+
+{/* q11 q16*/}
+<ArrowBody
+        w={["em", null, "5em", null, null, "19em"]}
+        top={["%", null, "30%", null, null, "35%"]}
+        left={["4%", null, "45.5%", null, null, "65%"]}
+        rotate={["305", "305", "305", "305","305", "15"]}
+      />
+      <ArrowHead
+        top={["30%", null, "30%", null, null, "107.8"]}
+        left={["38.4%", null, "38.4%", null, null, "74.5%"]}
+        rotate={["300", "300", "300","300", "300", "12"]}
+      />
+<Text size="label" top="37%" left="67%">
+        0
+      </Text>
+
+{/* q11 q16*/}
+<ArrowBody
+        w={["em", null, "5em", null, null, "19em"]}
+        top={["%", null, "30%", null, null, "35%"]}
+        left={["4%", null, "45.5%", null, null, "65%"]}
+        rotate={["305", "305", "305", "305","305", "15"]}
+      />
+      <ArrowHead
+        top={["30%", null, "30%", null, null, "107.8"]}
+        left={["38.4%", null, "38.4%", null, null, "74.5%"]}
+        rotate={["300", "300", "300","300", "300", "12"]}
+      />
+<Text size="label" top="37%" left="67%">
+        0
+      </Text>
+
+  {/* q16 q10*/}
+<ArrowBody
+        w={["em", null, "5em", null, null, "21em"]}
+        top={["%", null, "30%", null, null, "40%"]}
+        left={["4%", null, "45.5%", null, null, "59%"]}
+        rotate={["305", "305", "305", "305","305", "180"]}
+      />
+      <ArrowHead
+        top={["30%", null, "30%", null, null, "130"]}
+        left={["38.4%", null, "38.4%", null, null, "417"]}
+        rotate={["300", "300", "300","300", "300", "180"]}
+      />
+<Text size="label" top="40%" left="55%">
+        0
+      </Text>
+    
+      {/* q18 q10*/}
+<ArrowBody
+        w={["em", null, "5em", null, null, "18em"]}
+        top={["%", null, "30%", null, null, "45%"]}
+        left={["4%", null, "45.5%", null, null, "95%"]}
+        rotate={["305", "305", "305", "305","305", "175"]}
+      />
+  <ArrowBody
+        w={["em", null, "5em", null, null, "25em"]}
+        top={["%", null, "30%", null, null, "49.3%"]}
+        left={["4%", null, "45.5%", null, null, "60%"]}
+        rotate={["305", "305", "305", "305","305", "180"]}
+      />
+      <ArrowHead
+        top={["30%", null, "30%", null, null, "156"]}
+        left={["38.4%", null, "38.4%", null, null, "42%"]}
+        rotate={["300", "300", "300","300", "300", "180"]}
+      />
+<Text size="label" top="40%" left="55%">
+        0
+      </Text>
+ {/* q18 q19*/}
+ <ArrowBody
+        w={["em", null, "5em", null, null, "30em"]}
+        top={["%", null, "30%", null, null, "75%"]}
+        left={["4%", null, "45.5%", null, null, "59%"]}
+        rotate={["305", "305", "305", "305","305", "180"]}
+      />
+   {/* q18 q19*/}
+ <ArrowBody
+        w={["em", null, "5em", null, null, "30em"]}
+        top={["%", null, "30%", null, null, "75%"]}
+        left={["4%", null, "45.5%", null, null, "87%"]}
+        rotate={["305", "305", "305", "305","305", "180"]}
+      />
+     
+<ArrowBody
+        top={["30%", null, "30%", null, null, "130"]}
+        left={["38.4%", null, "38.4%", null, null, "417"]}
+        rotate={["300", "300", "300","300", "300", "22"]}
+      />
+ <ArrowBody
+        w={["em", null, "5em", null, null, "9em"]}
+        top={["%", null, "30%", null, null, "55%"]}
+        left={["4%", null, "45.5%", null, null, "110.3%"]}
+        rotate={["305", "305", "305", "305","305", "90"]}
+      />
+  <ArrowHead
+        top={["30%", null, "30%", null, null, "50%"]}
+        left={["38.4%", null, "38.4%", null, null, "111.9%"]}
+        rotate={["300", "300", "300","300", "300", "270"]}
+      />
+<Text size="label" top="70%" left="111%">
+        1
+      </Text>
+    
+      <Text size="label" top="60%" left="80%">
+        1
+      </Text>
+    
+
+ {/* q18 q12*/}
+ <ArrowBody
+        w={["em", null, "5em", null, null, "22.3em"]}
+        top={["%", null, "30%", null, null, "-33%"]}
+        left={["4%", null, "45.5%", null, null, "113.3%"]}
+        rotate={["305", "305", "305", "305","305", "270"]}
+      />
+ <ArrowBody
+        w={["em", null, "5em", null, null, "32em"]}
+        top={["%", null, "30%", null, null, "-100%"]}
+        left={["4%", null, "45.5%", null, null, "85.1%"]}
+        rotate={["305", "305", "305", "305","305", "180"]}
+      />
+
+<ArrowBody
+        w={["em", null, "5em", null, null, "11.4em"]}
+        top={["%", null, "30%", null, null, "-63%"]}
+        left={["4%", null, "45.5%", null, null, "56.9%"]}
+        rotate={["305", "305", "305", "305","305", "90"]}
+      />
+<ArrowHead
+        top={["%", null, "30%", null, null, "-39%"]}
+        left={["4%", null, "45.5%", null, null, "58.4%"]}
+        rotate={["300", "300", "300","300", "300", "90"]}
+      />
+
+ <ArrowHead
+        top={["30%", null, "30%", null, null, "25.8%"]}
+        left={["4%", null, "45.5%", null, null, "111.8%"]}
+        rotate={["300", "300", "300","300", "300", "90"]}
+      />
+
+<Text size="label" top="-90.8%" left="90.8%">
+        1
+      </Text>
+
+      <ArrowLoopLg
+        top={["20%", "20%", "20%", null, null, "31.5%"]}
+        left={["67.3%", "67.3%", "65.6%", null, null, "116.1%"]}
+        rotate="190"
+      />
+      <Text size="label" top="31.5%" left="118.1%">
+        1
+      </Text>
+
+      <ArrowLoopLg
+        top={["20%", "20%", "20%", null, null, "-90%"]}
+        left={["67.3%", "67.3%", "65.6%", null, null, "75.1%"]}
+        rotate="138"
+      />
+ <Text size="label" top="-90%" left="73.1%">
+        0
+      </Text>
+
+
+      <ArrowLoopLg
+        top={["20%", "20%", "20%", null, null, "32.8%"]}
+        left={["67.3%", "67.3%", "65.6%", null, null, "37.1%"]}
+        rotate="100"
+      />
+<Text size="label" top="32.8%" left="35.1%">
+        0
+      </Text>
+
 
 
       <Atom

@@ -213,7 +213,7 @@ const Main = () => {
                   if (input.length < 6) {
                       handleShort();
                       messageDisplayed = true;
-                  } else if (node === 9) {
+                  } else if (node === 10 || node === 11 || node === 12 || node === 13 || node === 18) {
                       handleValid();
                       messageDisplayed = true;
                       return true;
